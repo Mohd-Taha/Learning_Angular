@@ -16,7 +16,19 @@
       "id": 3,
       "text": "FA Project Submission",
       "day": "13th June @ 10:00 AM",
-      "reminder": false
+      "reminder": true
+    },
+    {
+      "text": "Happy birthday",
+      "day": "8th June 2022 @ 9:00 pm",
+      "reminder": true,
+      "id": 4
+    },
+    {
+      "text": "Happy birthday",
+      "day": "8th June 2022 @ 10:00 pm",
+      "reminder": false,
+      "id": 5
     }
   ]
 }
