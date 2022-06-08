@@ -1,22 +1,22 @@
 {
   "tasks": [
     {
-      "id": 2,
+      "id": 1,
       "text": "DM Task Submission",
       "day": "8th June @ 12:59 PM",
-      "reminder": true
+      "reminder": false
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "DM Task Submission",
       "day": "12th June @ 12:59 PM",
       "reminder": true
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "FA Project Submission",
       "day": "13th June @ 10:00 AM",
-      "reminder": true
+      "reminder": false
     }
   ]
 }
