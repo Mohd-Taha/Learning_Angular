@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { Router, RouterModule,Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -10,6 +11,14 @@ import { ButtonComponent } from './components/button/button.component';
 import { TasksComponent } from './components/tasks/tasks.component';
 import { TasksItemComponent } from './components/tasks-item/tasks-item.component';
 import { AddTaskComponent } from './components/add-task/add-task.component';
+import { AboutComponent } from './pages/about/about.component';
+import { FooterComponent } from './pages/footer/footer.component';
+
+const appRoutes: Routes = [
+  {path: '', component: TasksComponent},
+  {path: 'about', component: AboutComponent}
+]
+
 
 @NgModule({
   declarations: [
@@ -18,13 +27,16 @@ import { AddTaskComponent } from './components/add-task/add-task.component';
     ButtonComponent,
     TasksComponent,
     TasksItemComponent,
-    AddTaskComponent
+    AddTaskComponent,
+    AboutComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     FontAwesomeModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(appRoutes, { enableTracing: true}),
   ],
   providers: [],
   bootstrap: [AppComponent]
