@@ -2,3 +2,8 @@ footer {
     margin: 30px;
     text-align: center;
 }
+
+.footerNav {
+    display: flex;
+    justify-content: space-evenly;
+}

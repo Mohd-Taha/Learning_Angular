@@ -4,7 +4,7 @@
       "id": 1,
       "text": "DM Task Submission",
       "day": "8th June @ 12:59 PM",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 2,
@@ -21,14 +21,8 @@
     {
       "text": "Happy birthday",
       "day": "8th June 2022 @ 9:00 pm",
-      "reminder": true,
-      "id": 4
-    },
-    {
-      "text": "Happy birthday",
-      "day": "8th June 2022 @ 10:00 pm",
       "reminder": false,
-      "id": 5
+      "id": 4
     }
   ]
 }
