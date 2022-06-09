@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { Router, RouterModule,Routes } from '@angular/router';
+import { Router, RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -15,8 +15,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { FooterComponent } from './pages/footer/footer.component';
 
 const appRoutes: Routes = [
-  {path: '', component: TasksComponent},
-  {path: 'about', component: AboutComponent}
+  { path: '', component: TasksComponent },
+  { path: 'about', component: AboutComponent }
 ]
 
 
@@ -36,7 +36,7 @@ const appRoutes: Routes = [
     FontAwesomeModule,
     HttpClientModule,
     FormsModule,
-    RouterModule.forRoot(appRoutes, { enableTracing: true}),
+    RouterModule.forRoot(appRoutes, { enableTracing: true }),
   ],
   providers: [],
   bootstrap: [AppComponent]
